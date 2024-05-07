@@ -1,0 +1,62 @@
+.container {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code-component {
+    height: 56%;
+    width: 80%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.qr-code-component img {
+    border-radius: 10px;
+    flex: 1;
+}
+
+.qr-code-component section {
+    flex: 1;
+    text-align: center;
+    padding: 6px;
+}
+
+.qr-code-component p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.qr-code-component h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-size: 10px; */
+    font-family: 'Outfit', 'Courier New', Courier, monospace;
+    /* overflow-y: hidden; */
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+html {
+    font-size: 10px;
+}
